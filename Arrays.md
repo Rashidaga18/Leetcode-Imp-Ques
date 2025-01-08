@@ -24,3 +24,20 @@
     (iii)Check the counts and return the element that appears more than ⌊n/2⌋ times.
     <br>
     (iv) This method is intuitive and easy to understand, especially for beginners, but it uses O(n) time and O(n) space.
+
+    
+ + **Product of Array Except Self**  [Medium] (https://leetcode.com/problems/product-of-array-except-self/description/)
+
+   **Approach**  - The optimal approach for "Product of Array Except Self" is to use prefix and suffix products
+
+    (i) Compute the prefix product for each element (product of all elements to the left).
+   <br>
+    (ii) Compute the suffix product for each element (product of all elements to the right).
+   <br>
+    (iii) Multiply the prefix and suffix products for each element to get the result.
+   <br>
+    (iv) This approach works in O(n) time and uses O(1) extra space
+
++ **Best Time to Byu and Sell Stock II**  [Medium] (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+
+  **Approach** - 
